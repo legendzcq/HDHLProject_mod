@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StatusBarStyle</key>
+	<string>white</string>
+	<key>navigation_bar_title</key>
+	<string>#ffffff</string>
+	<key>home_ordertitle</key>
+	<string>#ffffff</string>
+	<key>home_orderseat</key>
+	<string>#ffffff</string>
+	<key>home_order</key>
+	<string>#ffffff</string>
+	<key>home_groupon</key>
+	<string>#ffffff</string>
+	<key>home_me</key>
+	<string>#ffffff</string>
+	<key>home_takeout</key>
+	<string>#ffffff</string>
+	<key>home_store</key>
+	<string>#ffffff</string>
+	<key>home_city</key>
+	<string>#ffffff</string>
+	<key>home_tabbarNormal</key>
+	<string>#666666</string>
+	<key>home_tabbarSelect</key>
+	<string>#ec364b</string>
+	<key>home_navigation_bar_bg1</key>
+	<string>#ec364b</string>
+	<key>home_navigation_bar_bg2</key>
+	<string>#ffffff</string>
+</dict>
+</plist>

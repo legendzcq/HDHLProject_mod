@@ -1,0 +1,61 @@
+//
+//  HDHLProject-Prefix.pch
+//  HDHLProject
+//
+//  Created by Mac on 15/6/25.
+//  Copyright (c) 2015年 Mac. All rights reserved.
+//
+
+#ifndef HDHLProject_HDHLProject_Prefix_pch
+#define HDHLProject_HDHLProject_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <objc/runtime.h>
+
+#import <QuartzCore/QuartzCore.h>
+#import <MapKit/MapKit.h>
+#import "ITTDebug.h"
+#import "UIUtil.h"
+#import "WebImageView.h"
+#import "MJRefresh.h"
+#import "RTLabel.h"
+
+//分享
+#import "ShareViewManager.h"
+
+//别类文件
+#import "CategoriesHeader.h"
+
+//宏文件
+#import "MacroHeader.h"
+
+//助手类文件
+#import "HelperHeader.h"
+
+//视图元素
+#import "LayoutKit.h" //自动布局头文件
+#import "ITTUIKitAdditions.h"
+//特殊视图
+#import "FrameView.h"
+#import "FrameViewWB.h"
+#import "ExpandFrameView.h"
+
+//消息框
+#import "MessageAlertView.h"
+#import "BDKNotifyHUD.h"
+
+//存储类
+#import "DataCacheManager.h"
+#import "DataEnvironment.h"
+
+//请求类基模型
+#import "PageModel.h"
+
+//登录
+#import "LoginVC.h"
+
+#endif

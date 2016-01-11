@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "c610e960-b482-7f42-ad5a-b460c1baa3cc++4512",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "c610e960-b482-7f42-ad5a-b460c1baa3cc++4512" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "c610e960-b482-7f42-ad5a-b460c1baa3cc++4512" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3CF9C789-A846-4E21-AACF-970B786E0B10",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "c610e960-b482-7f42-ad5a-b460c1baa3cc++4512" : "HDHLProject"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HDHLProject",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HDHLProject.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.1.3\/svn\/JuDian",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "c610e960-b482-7f42-ad5a-b460c1baa3cc++4512"
+    }
+  ]
+}

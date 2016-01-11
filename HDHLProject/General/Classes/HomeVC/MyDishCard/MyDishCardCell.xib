@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment version="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyDishCardCell" rowHeight="57" id="KGk-i7-Jjw" customClass="MyDishCardCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="141"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="140"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Tpl-Oh-0oS" customClass="WebImageView">
+                        <rect key="frame" x="10" y="5" width="300" height="130"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_mask.png" id="XFt-wr-JdL">
+                        <rect key="frame" x="10" y="95" width="300" height="40"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="黄焖鸡米饭" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1rH-Sh-vJ5">
+                        <rect key="frame" x="21" y="102" width="193" height="30"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_map_small.png" id="YIk-ZM-GUe">
+                        <rect key="frame" x="248" y="111" width="10" height="12"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="500m" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bP9-Iu-Jhn">
+                        <rect key="frame" x="263" y="106" width="45" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qVI-RW-YNW">
+                        <rect key="frame" x="17" y="7" width="295" height="128"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <state key="normal">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="ChooseStoreBtnClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="WAP-BS-4dr"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" red="0.94117653369903564" green="0.94117653369903564" blue="0.94117653369903564" alpha="1" colorSpace="deviceRGB"/>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="DistanceLabel" destination="bP9-Iu-Jhn" id="haH-dn-5N9"/>
+                <outlet property="addressImageView" destination="YIk-ZM-GUe" id="MBM-wo-LDT"/>
+                <outlet property="backGroudView" destination="XFt-wr-JdL" id="A1N-ea-Yci"/>
+                <outlet property="storeNameBtn" destination="qVI-RW-YNW" id="3o0-nm-Cn7"/>
+                <outlet property="storeNameLabel" destination="1rH-Sh-vJ5" id="F80-11-1SN"/>
+                <outlet property="storePhotoView" destination="Tpl-Oh-0oS" id="D9f-OF-vfq"/>
+            </connections>
+            <point key="canvasLocation" x="295" y="162.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="home_map_small.png" width="10" height="12"/>
+        <image name="home_mask.png" width="301" height="40"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
